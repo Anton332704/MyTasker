@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="my">#CC8888</color>
+    <color name="left_menu">#0091D5</color>
+    <color name="ColorPrimary">#0097A7</color>
+    <color name="ColorPrimaryDark">#00838F</color>
+    <color name="TabsColor">#33b5e5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_divider">#5D000000</color>
+
+
+
+</resources>

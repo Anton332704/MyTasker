@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp">
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_marginLeft="3dp"
+        android:id="@+id/imageIcon"
+        android:background="@drawable/face_black"/>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="7dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameFriend"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="#DE000000"
+                android:text="Andrew"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/secNameFriend"
+                android:layout_marginTop="2dp"
+                android:textSize="18sp"
+                android:textColor="#DE000000"
+                android:text="Smith" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>

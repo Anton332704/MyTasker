@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00A9B9"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/taskPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<android.support.v4.view.PagerTitleStrip-->
+            <!--android:id="@+id/pager_title_strip"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:background="@color/TabsColor"-->
+            <!--android:textColor="#fff"-->
+            <!--android:paddingTop="4dp"-->
+            <!--android:paddingBottom="4dp" />-->
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>
